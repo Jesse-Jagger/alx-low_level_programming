@@ -2,6 +2,8 @@
 /**
  * main - Entry point
  *
+ * description: Function with puts
+ *
  * return: Always 0 (Success)
  */
 int main(void)
