@@ -10,11 +10,11 @@
 */
 int main(void)
 {
-	int n;
+	int n = 122;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	while (n >= 122)
+	while (n >= 97)
 	{
 		putchar(n);
 		n--;
