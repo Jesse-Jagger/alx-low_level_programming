@@ -6,13 +6,15 @@
  *
  * Return: 0 (success)
 */
-void print_alphabet(void)
+int main(void)
 {
-	char j;
+	int i = 97;
 
-	for (j = 97; j <= 122; j++)
-		_putchar(j);
-
-	_putchar('\n');
+	while (i <= 122)
+	{
+		putchar(i);
+		i++;
+	}
+	putchar('\n');
+	return (0);
 }
-
