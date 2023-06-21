@@ -6,15 +6,13 @@
  *
  * Return: 0 (success)
 */
-int main(void)
+void main(void)
 {
-	int i = 97;
+	char i;
 
-	while (i <= 122)
+	for (i = 'a'; i <= 'z'; i++)
 	{
-		putchar(i);
-		i++;
+		_putchar(i);
 	}
-	putchar('\n');
-	return (0);
+	_putchar('\n');
 }
