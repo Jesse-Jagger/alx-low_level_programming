@@ -6,8 +6,15 @@
  */
 void print_rev(char *s)
 {
-	char *s[] = "I do not fear computers. I fear the lack of them - Isaac Asimov";
+	int longi = 0;
+	int o;
+
+	while (*s != '\0')
 	{
-		printf(*s)
-		* s--
+		longi++;
+		s++;
 	}
+	s--;
+	for (o = longi; o > 0; o--)
+	{
+		_putchar(*s);
