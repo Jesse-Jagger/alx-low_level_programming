@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - print diagsums
+ * main - check the code
  * @a: input
  * @size: input
  * return: always (0) success
